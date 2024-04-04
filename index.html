@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 60vh;
+            width: 50vw;
+            border: 3px solid  black;
+            background-image: url(https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg);
+            background-repeat: no-repeat;
+            background-size:cover ;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            border-radius: 20px;
+            flex-wrap: wrap;
+        
+        }
+        .container2{
+            /*border: 2px solid;*/
+            width: 50vw;
+            height: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            flex-shrink: 0px;
+            
+        }
+        .parent1{
+            
+            display: flex;
+            column-gap:5px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .parent2{
+            display: flex;
+            column-gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+        .parent3{
+           
+            display: flex;
+            column-gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .parent4{
+           
+            display: flex;
+            column-gap: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .parent5{
+          
+            display: flex;
+            column-gap: 20px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        #btn1{
+
+            font-size: 20px;
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+            flex-wrap: wrap;
+        }
+        #btn2{
+
+            font-size: 20px;
+            height: 50px;
+            width: 250px;
+             background-color: rgb(238, 38, 28);
+            flex-wrap: wrap;
+            border-radius: 10px;
+        }
+        .textbox{
+            text-align: right;
+            width: 50vw;
+            height: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 15px;
+            background-color:lightslategrey;
+        }
+        .parent41,.parent51{
+            background-color:orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <input type="text" class="textbox" placeholder="0">
+        </div>
+        <!-- container 2 closed -->
+        <div class="parent1">
+            <button class="parent11" id="btn1">MC</button>
+            <button class="parent12"id="btn1">MR</button>
+            <button class="parent13"id="btn1">M-</button>
+            <button class="parent14"id="btn1">M+</button>
+            <button class="parent15"id="btn1">÷</button>
+        </div>
+        <!-- parent 1 closed -->
+        <div class="parent2">
+            <button class="parent21"id="btn1">%</button>
+            <button class="parent22"id="btn1">7</button>
+            <button class="parent23"id="btn1">8</button>
+            <button class="parent24"id="btn1">9</button>
+            <button class="parent25"id="btn1">X</button>
+        </div>
+        <!-- parent2 closed -->
+        <div class="parent3">
+            <button class="parent31"id="btn1">+/-</button>
+            <button class="parent32"id="btn1">4</button>
+            <button class="parent33"id="btn1">5</button>
+            <button class="parent34"id="btn1">6</button>
+            <button class="parent35"id="btn1">-</button>
+        </div>
+        <!-- parent3 closed -->
+        <div class="parent4">
+            <button class="parent41"id="btn1">C</button>
+            <button class="parent42"id="btn1">1</button>
+            <button class="parent43"id="btn1">2</button>
+            <button class="parent44"id="btn1">3</button>
+            <button class="parent55"id="btn1">+</button>
+        </div>
+        <!-- parent4 closed -->
+        <div class="parent5">
+            <button class="parent51"id="btn1">AC</button>
+            <button class="parent52"id="btn1">0</button>
+            <button class="parent53"id="btn1">.</button>
+            <button class="parent54"id="btn2">=</button>
+        </div>
+    </div>
+
+    <!-- above div is container -->
+    
+</body>
+</html>
